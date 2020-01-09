@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://use.fontawesome.com/a065dc3dda.js"></script>
+    <title>Piskel clone</title>
+<link href="main.css" rel="stylesheet"></head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            <h1>Piskel clone very simple</h1>
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </header>
+        <main class="main">
+            <div class="left-column">
+                <div class="pallete pallete-1">
+                    <ul>
+                        <li class="item item__fill"><i class="fa fa-filter" aria-hidden="true"></i>Fill bucket (A)</li>
+                        <li class="item item__color">
+                            <input type="color" id="color-choose" name="head">
+                            <label for="color-choose">Choose color (S)</label></li>
+                        <li class="item item__pencil"><i class="fa fa-pencil" aria-hidden="true"></i>Pencil (D)</li>
+                        <li class="item item__transform"><i class="fa fa-exchange" aria-hidden="true"></i>Transform (F)</li>
+                    </ul>
+                </div>
+                <div class="pallete pallete-2">
+                    <ul>
+                        <li class="item item__current-color"><i class="fa fa-circle" aria-hidden="true"></i>Current color</li>
+                        <li class="item item__previous-color"><i class="fa fa-circle" aria-hidden="true"></i>Previous color</li>
+                        <li class="item item__red"><i class="fa fa-circle fa-circle-red" aria-hidden="true"></i>Red</li>
+                        <li class="item item__blue"><i class="fa fa-circle fa-circle-blue" aria-hidden="true"></i>Blue</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="center-column">
+                <canvas class="canvas" id="canvas">
+                </canvas>
+            </div>
+        </main>
+    </div>
+<script type="text/javascript" src="main.js"></script></body>
+</html>
