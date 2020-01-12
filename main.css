@@ -46,11 +46,6 @@
     padding-left: 30px; }
     .pallete .item__current-color {
       color: green; }
-    .pallete .item__transform {
-      color: lightgray; }
-      .pallete .item__transform:hover {
-        background: none;
-        cursor: not-allowed; }
     .pallete .item__pencil, .pallete .item__previous-color {
       border-bottom: 1px solid lightgray; }
 
